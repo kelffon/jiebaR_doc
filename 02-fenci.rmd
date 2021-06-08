@@ -117,7 +117,7 @@ writeBin(charToRaw("对应文本还有一个换行符\n"), "./某个文件.txt")
 
 ### 对文件进行分词 - 自动检测路径
 
-当前目录下又一个 index.rmd 的文件
+当前目录下有一个 index.rmd 的文件
 
 ```{r}
 outputfile = segment("./index.rmd", 分词器)
